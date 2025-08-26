@@ -16,7 +16,7 @@ export class AppComponent {
     if (pagina === "inicio") {
       this.conteudo = `
         <h2>Página Inicial</h2>
-        <h4>Resumo rápido do dia</h4>
+        <p>Resumo rápido do dia</p>
       `;
     } 
     else if (pagina === "vendas") {
