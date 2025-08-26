@@ -1,0 +1,29 @@
+.sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #366FEB;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;  
+}
+
+/* Ações da Barra */
+
+.sidebar h3 {
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: left;
+  transition: ease-in-out 0.3s;
+}
+
+.sidebar h3:hover {
+  background-color: #80a2ff;
+}
